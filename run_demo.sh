@@ -1,0 +1,1 @@
+FLASK_APP=app.py flask run --host=192.168.2.106

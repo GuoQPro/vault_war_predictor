@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../static/mystyle.css">
+    <title>避难所战斗预测</title>
+</head>
+
+<body>
+    <p>
+        
+        <ul>
+            <li> 该模型基于线上18w条真实避难所战斗数据生成 </li>
+            <li> 数据集极度缺乏战败情况和极端玩家兵量的情况 </li>
+            <li> 使用合理的玩家兵量和真实的避难所怪物配置 </li>
+            <li> 为图方便，仅供1人同时使用，多人同时使用会互相影响 </li>
+        </ul>
+    </p>
+    <br>
+    <br>
+    <section id = "sec_hero"></section>
+    <section id = "sec_user_lvl"></section>
+    <section id = "sec_input"></section>
+    
+    <script src="../static/script.js"></script>
+    <script>
+        RefreshPageInfo();
+    </script>
+
+    <br>
+    <br>
+
+    <form action = "/predict" name="do_prediction">
+        <input type="submit" value="predict" name = "btn_predict">
+    </form>
+
+    <section id = "sec_result"></section>
+
+</body>
+

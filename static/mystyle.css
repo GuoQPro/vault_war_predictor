@@ -1,0 +1,7 @@
+
+input[name="btn_predict"]{
+    /* change these properties to whatever you want */
+    background-color: #F00;
+    color: #fff;
+    border-radius: 30px;
+}
